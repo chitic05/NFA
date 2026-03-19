@@ -1,0 +1,15 @@
+#1-PAR SI 0-IMPAR
+.states
+   S q0
+   q1
+   q2
+   F q3
+
+.alphabet
+   0 1
+
+.transitions
+   q0 EPSILON q1
+   q1 1 q3
+   q0 0 q2
+
